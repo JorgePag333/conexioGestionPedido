@@ -1,0 +1,23 @@
+﻿<Window x:Class="conexioGestionPedido.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:conexioGestionPedido"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Clientes" Name="client" Margin="57,32,565,334" FontSize="24"></Label>
+        <ListBox HorizontalAlignment="Left" Height="197" Margin="56,105,0,0" VerticalAlignment="Top" Name="listaC" Width="178" MouseDoubleClick="listaC_MouseDoubleClick"></ListBox>
+        <Label Content="Pedidos" Margin="270,35,352,329" FontSize="24"></Label>
+        <ListBox HorizontalAlignment="Left" Height="197" Margin="269,105,0,0" VerticalAlignment="Top" Name="listaP" Width="178"></ListBox>
+        <ListBox HorizontalAlignment="Left" Height="197" Margin="464,105,0,0" VerticalAlignment="Top" Name="listatodosP" Width="209"></ListBox>
+        <Button Content="Borrar" HorizontalAlignment="Left" Margin="464,31,0,0" VerticalAlignment="Top" Height="69" Width="178" FontSize="24" Click="Button_Click"/>
+        <Button Content="Insertar" HorizontalAlignment="Left" Margin="56,302,0,0" VerticalAlignment="Top" Height="25" Width="88" Click="Button_Click_1"/>
+        <Button Content="Borrar" HorizontalAlignment="Left" Margin="146,302,0,0" VerticalAlignment="Top" Height="25" Width="88" Click="Button_Click_2"/>
+        <TextBox HorizontalAlignment="Left" Margin="56,332,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" Name="insertaCliente" />
+        <Button Content="Actualizar Datos Cliente" HorizontalAlignment="Left" Height="48" Margin="56,355,0,0" VerticalAlignment="Top" Width="179" Click="Button_Click_3"/>
+
+
+    </Grid>
+</Window>
