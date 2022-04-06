@@ -192,7 +192,7 @@ namespace conexioGestionPedido
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
             FormActualizarCliente formActualizar=new FormActualizarCliente();
-           
+            formActualizar.Show();
             try
             {
                 string consulta = "SELECT * FROM Cliente WHERE IdCliente=@IDC";
@@ -221,7 +221,12 @@ namespace conexioGestionPedido
 
                 MessageBox.Show(ee.ToString());
             }
-            formActualizar.ShowDialog();
+           
+          
+        }
+
+        private void Window_Activated(object sender, EventArgs e)
+        {
             MuestraCliente();
         }
     }
