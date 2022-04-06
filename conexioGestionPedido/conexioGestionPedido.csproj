@@ -99,6 +99,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="conectar.bacpac" />
     <None Include="ConectarDataSet.xsc">
       <DependentUpon>ConectarDataSet.xsd</DependentUpon>
     </None>
